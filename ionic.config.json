@@ -1,0 +1,7 @@
+{
+  "name": "ProgramaTc2021",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
