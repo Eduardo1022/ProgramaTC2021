@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<app-headerapp></app-headerapp>
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <app-carrusel-app></app-carrusel-app>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-label>
+        ¿No tienes una cuenta?<br> Presiona el boton de aqui abajo para registrarte<br> en el sistema.
+    </ion-label>
+    <ion-button color="medium" [routerLink]="['/registro-page']">Registrarse</ion-button>
+
+
+    <ion-label>
+        ¿Ya te registraste?<br> Perfecto ahora da clic a iniciar sesion
+    </ion-label>
+    <ion-button color="medium" [routerLink]="['/login-page']">Iniciar Sesion</ion-button>
+
+    <ion-item>
+        <ion-card>
+            <ion-card-title>
+                Universidad Veracruzana
+            </ion-card-title>
+            <ion-card-content>
+                Facultad de Estadistica e Informatica<br> Tecnologias computacionales
+            </ion-card-content>
+        </ion-card>
+    </ion-item>
+
 </ion-content>
+<app-pieapp></app-pieapp>

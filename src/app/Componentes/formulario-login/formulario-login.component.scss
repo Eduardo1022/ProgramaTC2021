@@ -1,0 +1,43 @@
+ion-card-content {
+    margin-top: 0;
+    width: 100%;
+    margin-top: 35%;
+    background-color: silver;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    color: black;
+}
+
+.Formulariologin {
+    --background: silver;
+    ;
+}
+
+ion-item {
+    --background: silver;
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+ion-input {
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+ion-button {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    size: large;
+}
+
+ion-title {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
